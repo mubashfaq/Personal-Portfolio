@@ -16,10 +16,10 @@ export default function Projects() {
       title: "Sydney Quality Meats",
       description:
         "E-commerce website for a butcher shop with Stripe payment integration and role-based authentication.",
-      image: "/sydney-quality-meats-1.png",
+      image: "/sydney-quality-meats.png",
       tags: ["Laravel", "PHP", "MySQL", "Stripe", "Authentication"],
-      liveUrl: "#",
-      githubUrl: "https://github.com/mubashfaq",
+      liveUrl: "https://sydneyqualitymeats.com.au",
+      githubUrl: "https://github.com/mubashfaq/SQM",
     },
     {
       title: "Myntra Clone",
@@ -27,7 +27,7 @@ export default function Projects() {
       image: "/myntra-project.png",
       tags: ["React", "JavaScript", "CSS", "Responsive Design"],
       liveUrl: "https://simple-frontend-myntra.vercel.app",
-      githubUrl: "https://github.com/mubashfaq",
+      githubUrl: "https://github.com/mubashfaq/new-myntra",
     },
     {
       title: "Personal Portfolio Website",
@@ -36,15 +36,15 @@ export default function Projects() {
       image: "/project-3.png",
       tags: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
       liveUrl: "https://personal-portfolio-dark-theme.vercel.app",
-      githubUrl: "https://github.com/mubashfaq",
+      githubUrl: "https://github.com/mubashfaq/Personal-Portfolio",
     },
     {
-      title: "Sydney Quality Meats - Checkout",
-      description: "Implemented secure payment processing with Stripe and optimized the checkout experience.",
-      image: "/sydney-quality-meats-2.png",
-      tags: ["Stripe", "PHP", "JavaScript", "E-commerce"],
-      liveUrl: "#",
-      githubUrl: "https://github.com/mubashfaq",
+      title: "GSaaS",
+      description: "Implemented secure payment processing with Stripe and other features in POS module.",
+      image: "/gsaas.png",
+      tags: ["Stripe", "Paypal", "Laravel", "React JS", "POS"],
+      liveUrl: "https://gsaas.com.pk",
+      githubUrl: "https://github.com/mubashfaq/gsaas",
     },
   ]
 

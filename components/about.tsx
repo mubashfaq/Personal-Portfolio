@@ -50,8 +50,8 @@ export default function About() {
               responsive and accessible web applications.
             </p>
             <p className="text-muted-foreground">
-              My journey in web development started at Australian IT Center, and since then, I've worked on various
-              projects including integrating third-party services like Stripe and Firebase, implementing role-based
+              My journey in web development started at G-Tech Solutions, and since then, I've worked on various
+              projects including integrating third-party services like Stripe and paypal, implementing role-based
               authentication, and optimizing backend APIs.
             </p>
             <div className="grid grid-cols-2 gap-4">
@@ -72,7 +72,7 @@ export default function About() {
                 <p className="text-muted-foreground">03033567069</p>
               </div>
             </div>
-            <a href="/mubashar-resume.pdf" download>
+            <a href="/Mubashar_Resume_Laravel.pdf" download>
               <Button className="flex items-center gap-2">
                 <FileText className="h-4 w-4" />
                 Download CV
