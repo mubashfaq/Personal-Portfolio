@@ -4,7 +4,7 @@ import type React from "react"
 
 import { useState, useRef } from "react"
 import { motion, useInView } from "framer-motion"
-import { Mail, Phone, MapPin, Send } from "lucide-react"
+import { Mail, MessageCircle , MapPin, Send } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -47,10 +47,10 @@ export default function Contact() {
       link: "mailto:mubasharashfaqdev10@gmail.com",
     },
     {
-      icon: <Phone className="h-6 w-6 text-primary" />,
-      title: "Phone",
+      icon: <MessageCircle  className="h-6 w-6 text-primary" />,
+      title: "WhatsApp",
       content: "03033567069",
-      link: "tel:03033567069",
+      link: "https://wa.me/+923033567069",
     },
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
@@ -85,7 +85,7 @@ export default function Contact() {
                     <div className="mt-1">{info.icon}</div>
                     <div>
                       <h3 className="font-semibold text-lg">{info.title}</h3>
-                      <a href={info.link} className="text-muted-foreground hover:text-primary transition-colors">
+                      <a href={info.link} target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                         {info.content}
                       </a>
                     </div>
