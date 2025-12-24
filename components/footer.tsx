@@ -11,8 +11,8 @@ export default function Footer() {
       href: "https://www.linkedin.com/in/mubasharashfaqdev10/",
       label: "LinkedIn",
     },
-    { icon: <Instagram className="h-5 w-5" />, href: "https://www.instagram.com/mubashfaq10/", label: "Instagram" },
-    { icon: <Facebook className="h-5 w-5" />, href: "https://www.facebook.com/mubashfaq", label: "Facebook" },
+    { icon: <Instagram className="h-5 w-5" />, href: "https://www.instagram.com/mubashfaq_10/", label: "Instagram" },
+    { icon: <Facebook className="h-5 w-5" />, href: "https://www.facebook.com/profile.php?id=61584235185200", label: "Facebook" },
   ]
 
   return (

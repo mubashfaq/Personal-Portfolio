@@ -65,14 +65,14 @@ export default function About() {
               </div>
               <div>
                 <h4 className="font-semibold">Location:</h4>
-                <p className="text-muted-foreground">Rahim Yar Khan, Pakistan</p>
+                <p className="text-muted-foreground">Lahore, Pakistan</p>
               </div>
               <div>
                 <h4 className="font-semibold">Phone:</h4>
                 <p className="text-muted-foreground">03033567069</p>
               </div>
             </div>
-            <a href="/Mubashar_Resume_Laravel.pdf" download>
+            <a href="/Mubashar-Ashfaq-Backend-Developer-Resume.pdf" download>
               <Button className="flex items-center gap-2">
                 <FileText className="h-4 w-4" />
                 Download CV

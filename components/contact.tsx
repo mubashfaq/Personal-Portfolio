@@ -55,8 +55,8 @@ export default function Contact() {
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
       title: "Location",
-      content: "Rahim Yar Khan, Pakistan",
-      link: "https://maps.app.goo.gl/3uGW6faKjtLQMUKcA",
+      content: "Lahore, Pakistan",
+      link: "https://maps.app.goo.gl/A8MvwMTib6LMdwp78",
     },
   ]
 
